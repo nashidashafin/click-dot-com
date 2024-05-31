@@ -1,0 +1,40 @@
+.category {
+    /* position: relative;
+    color: white;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-bottom: 20px; */
+    position: relative;
+  color: white;
+  padding: 20px;
+  background-size: cover;
+  background-position: center;
+  height: 300px; /* Adjust this height to fit your desired banner size */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  }
+  
+  .category::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.438); /* Overlay color */
+  }
+  
+  .category h1 {
+    position: relative;
+    z-index: 1;
+    /* background-color: rgba(0, 0, 0, 0.5); Background color of the heading */
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0;
+  }

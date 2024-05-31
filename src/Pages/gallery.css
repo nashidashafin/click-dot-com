@@ -1,0 +1,43 @@
+
+    
+    .image-row {
+        margin-top: 10px;
+  overflow-x: auto;
+      }
+
+
+.images{
+    display: flex;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    overflow-x: scroll;
+
+}
+
+.images::-webkit-scrollbar{
+    display: none;
+}
+
+
+.img-row{
+    /* margin-right: 3px; */
+    margin-top: 3px;
+    transition: .5s ease-in-out;
+
+    
+}
+.img-row:hover{
+    transform: scale(1.05);
+}
+
+.btn-img {
+    transition: transform 0.3s ease-in; /* Increased duration to 0.3s */
+}
+
+.btn-img:hover {
+    transform: scale(1.07);
+}
+
+
+
+
