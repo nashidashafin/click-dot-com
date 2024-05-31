@@ -86,7 +86,8 @@ function AllImages() {
         </div>
         :
         <div className='text-center'>
-          <h1>No Photo available</h1>
+                <h1 className='text-center my-4'><i class="fa-solid fa-spinner fa-spin-pulse" style={{color:"rgb(207, 80, 6)"}}></i></h1>
+
         </div>      
       }
 

@@ -216,13 +216,9 @@ function Gallery() {
           
         ))
       ) : (
-        <h1>No images posted yet</h1>
+        <h1 className='text-center my-4'><i class="fa-solid fa-spinner fa-spin-pulse" style={{color:"rgb(207, 80, 6)"}}></i></h1>
       )}
-      {/* <Pagination className='mt-3 justify-content-center'>
-        <Pagination.Prev onClick={() => setCurrentPage(currentPage > 1 ? currentPage - 1 : 1)} />
-        {pageItems}
-        <Pagination.Next onClick={() => setCurrentPage(currentPage < totalPages ? currentPage + 1 : totalPages)} />
-      </Pagination> */}
+    
 
 
 
